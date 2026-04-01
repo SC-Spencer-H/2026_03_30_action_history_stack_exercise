@@ -15,3 +15,8 @@ internal class Program
         Console.WriteLine($"{actionHistory.Pop()} undone");
     }
 }
+
+// REFLECTION QUESTIONS
+//
+// 1) LIFO means Last In, First Out
+// 2) An undo history uses a stack because you want to undo actions in order from most recent to least recent
